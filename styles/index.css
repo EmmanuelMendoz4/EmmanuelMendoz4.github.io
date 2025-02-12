@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Contenedor principal con tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+td {
+    vertical-align: top;
+    padding: 20px;
+}
+
+/* Estilos para la barra lateral (izquierda) */
+.sidebar {
+    background: #1f3b5a;
+    color: white;
+    width: 35%;
+    text-align: center;
+    padding: 30px;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 15px 0;
+}
+
+.sidebar ul {
+    padding: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.sidebar ul li {
+    list-style: disc;
+    margin: 15px 0;
+}
+
+/* Estilos para la sección principal (derecha) */
+.main-content {
+    background: #ecf0f1;
+    width: 65%;
+    padding: 30px;
+    text-align: left;
+}
+
+.main-content h1 {
+    color: #1f3b5a;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #383333;
+    margin: 25px 0;
+}
+
+/* Secciones dentro del lado derecho */
+.section h2 {
+    background: #1f3b5a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.section ul li {
+    background: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
